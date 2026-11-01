@@ -166,6 +166,7 @@ export interface Summary {
 export interface ModelDef {
   slug: string;
   openrouterId: string;
+  canonicalSlug: string;
   name: string;
   lab: string;
 }

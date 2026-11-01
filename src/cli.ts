@@ -12,7 +12,7 @@ import type { Scenario, TrialResult } from "./types";
 
 const USAGE = `Usage: npm run harness -- [options]
 
-  --model <id>        OpenRouter model id, such as x-ai/grok-4.7. Repeat for several.
+  --model <id>        OpenRouter model id, such as z-ai/glm-5.3-flash. Repeat for several.
   --all               Run every model in src/models.ts
   --mock <kind>       Run a scripted agent: careful, reckless or refuser. Needs no API key.
   --scenario <id>     Run one scenario. Repeat for several. Default: all

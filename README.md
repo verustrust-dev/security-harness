@@ -27,7 +27,7 @@ Test a real model through [OpenRouter](https://openrouter.ai). These calls are b
 
 ```bash
 export OPENROUTER_API_KEY=your-key
-npm run harness -- --model x-ai/grok-4.7 --scenario spoofed-router --repeats 1
+npm run harness -- --model z-ai/glm-5.3-flash --scenario spoofed-router --repeats 1
 ```
 
 Remove `--scenario` and `--repeats` for the full run: every scenario, three times each. Results go to `results/`, with a full transcript of every run. Use `--help` for all options and `--list` to see the scenarios.
